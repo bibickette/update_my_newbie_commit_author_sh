@@ -20,6 +20,7 @@ When you first started using Git, you might have made commits with the wrong nam
 It uses `git filter-repo` to safely replace old emails and names with the correct ones.
 
 Before running this script, it is strongly recommended to **check the commit authors and emails** in your repository : `git log --format="%an <%ae>" | sort | uniq`
+
 This command lists all unique author names and emails present in the commit history, allowing you to clearly identify which identities should (or should not) be replaced.
 
 **From this :**  
