@@ -5,7 +5,7 @@
 
 This script helps you **update the author and committer of past Git commits**.
 
-When you first started using Git, you might have made commits with the wrong name or email due to misconfigured .gitconfig because you're an actual newbie. This script allows you to fix those old commits without losing your commit history, keeping your repository clean while preserving all changes.
+When you first started using Git, you might have made commits with the wrong name or email due to misconfigured `.gitconfig` because you're an actual newbie. This script allows you to fix those old commits without losing your commit history, keeping your repository clean while preserving all changes.
 
 It uses `git filter-repo` to safely replace old emails and names with the correct ones.
 
