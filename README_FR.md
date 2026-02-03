@@ -1,6 +1,16 @@
 🇬🇧 English version available [here](README.md)
 * * *
 # Présentation du projet `update_my_newbie_commit_author`
+## ⚠️ Important - Utilisation éthique uniquement
+
+Ce script est conçu **uniquement pour corriger vos propres commits** réalisés avec un mauvais nom ou une mauvaise adresse email, à cause d’une mauvaise configuration de Git.
+
+❌ **N’utilisez jamais ce script pour vous attribuer les commits d’autres personnes.**
+Réécrire l’historique Git pour voler ou usurper le travail d’un autre contributeur est contraire à toute éthique.
+
+✅ Vous devez uniquement remplacer des identités qui **vous appartiennent réellement** (anciens emails, anciens noms d’utilisateur, anciennes machines, etc.).
+
+* * *
 ## Description
 
 Ce script vous aide à **mettre à jour l’auteur et le committer des anciens commits Git**.
@@ -9,6 +19,9 @@ Lorsque vous avez commencé à utiliser Git, il est possible que vous ayez fait 
 Ce script vous permet de corriger ces anciens commits sans perdre l’historique, tout en gardant un dépôt propre et cohérent.
 
 Il utilise `git filter-repo` pour remplacer de manière sécurisée les anciens noms et emails par les bons.
+
+Avant d’exécuter le script, il est fortement recommandé de **vérifier les auteurs et emails** présents dans l’historique Git : `git log --format="%an <%ae>" | sort | uniq`
+Cette commande affiche la liste unique des noms et emails utilisés dans les commits, afin d’identifier clairement quelles identités doivent être corrigées (et lesquelles ne doivent pas l’être).
 
 **De ça :**  
 ![from this](docs/from_this.png) 
