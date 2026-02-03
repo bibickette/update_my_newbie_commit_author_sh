@@ -9,10 +9,10 @@ When you first started using Git, you might have made commits with the wrong nam
 
 It uses `git filter-repo` to safely replace old emails and names with the correct ones.
 
-From this:  
+**From this :**  
 ![from this](docs/from_this.png) 
 
-To this:  
+**To this :**  
 ![to this](docs/to_this.png) 
 
 
