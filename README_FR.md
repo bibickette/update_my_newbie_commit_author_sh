@@ -21,6 +21,7 @@ Ce script vous permet de corriger ces anciens commits sans perdre l’historique
 Il utilise `git filter-repo` pour remplacer de manière sécurisée les anciens noms et emails par les bons.
 
 Avant d’exécuter le script, il est fortement recommandé de **vérifier les auteurs et emails** présents dans l’historique Git : `git log --format="%an <%ae>" | sort | uniq`
+
 Cette commande affiche la liste unique des noms et emails utilisés dans les commits, afin d’identifier clairement quelles identités doivent être corrigées (et lesquelles ne doivent pas l’être).
 
 **De ça :**  
