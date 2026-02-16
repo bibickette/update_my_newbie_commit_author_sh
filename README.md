@@ -71,7 +71,7 @@ _⚠️ Important: Ensure the repository path and URL point to the same reposito
 ## How to use `update_my_newbie_commit_author`
 
 1. Clone `update_my_newbie_commit_author` in a folder first : `git clone https://github.com/bibickette/update_my_newbie_commit_author_sh.git`
-2. Move into the repository : `cd update_my_newbie_commit_author`
+2. Move into the repository : `cd update_my_newbie_commit_author_sh`
 3. Prepare your Python config file (`my_newbie_commit_author.py`), open the file for more details.
 4. You can now run `./update_my_newbie_commit_author.sh my_newbie_commit_author.py git@github.com:username/repo.git /path/to/local/repo` to change your newbie commit from your git begin
 
